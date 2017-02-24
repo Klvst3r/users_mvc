@@ -2,9 +2,9 @@
 return array(
     "driver"    =>"mysql",
     "host"      =>"localhost",
-    "user"      =>"root",
-    "pass"      =>"",
-    "database"  =>"pruebas",
+    "user"      =>"dev",
+    "pass"      =>"desarrollo",
+    "database"  =>"beginmvc",
     "charset"   =>"utf8"
 );
 ?>
