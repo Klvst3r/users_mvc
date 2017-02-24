@@ -15,3 +15,34 @@ En nuestro “framework” tendremos varios directorios:
 * view: aquí iran las vistas, es decir, donde se imprimirán los datos y lo que verá el usuario.
 
 * index.php será el controlador frontal por el que pasará absolutamente todo en la aplicación.
+
+Estructura:
+
+Source Files
+	/
+	|_/ config
+	| |_database.php
+	| |_global.php
+	|
+	|_/ controller
+	| |_UsuariosController.php
+	|
+	|_/ core
+	| |_/FluentPDO
+	|   |_AyudaVistas.php
+	|	|_Conectar.php
+	|	|_ControladorBase.php
+	|	|_ControladorFrontal.fun.php
+	|	|_EntidadBase.php
+	|	|_ModeloBase.php
+	|
+	|_/model
+	| |_Usuario.php
+	| |_UsuarioModel.php
+	|
+	|_/view
+	| |_indexView.php
+	|_index.php
+
+
+	
